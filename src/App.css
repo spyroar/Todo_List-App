@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.app-container {
+  width: 100%;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.add-task-form input,
+.add-task-form select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #45a049;
+}
+
+.status-filter {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.status-filter select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Tabulator Custom Styles */
+.tabulator {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tabulator .tabulator-header {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ddd;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tabulator .tabulator-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.tabulator .tabulator-row .tabulator-cell {
+  padding: 10px;
+}
+
+.delete-btn {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
